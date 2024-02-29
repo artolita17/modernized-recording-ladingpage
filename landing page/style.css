@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'cstm';
+    src: url(fontfaces/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'bld';
+    src: url(fontfaces/Poppins-SemiBold.ttf);
+}
+body{
+    font-family: cstm;
+    color: #002469;
+}
+.navbar{
+background-color: #0038A8;    
+}
+
+.buttons{
+display: flex;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.btn{
+color: white;
+border-color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 230, 0) ;
+}
+.btn a:hover{
+    background-color: rgb(255, 230, 0);
+color: rgb(2, 2, 188);
+transition: 0.5s ease;
+}
+.btn:hover{
+background-color: white;
+color: rgb(2, 2, 188);
+transition: 0.5s ease;
+}
+.btn1 .btn{
+border-color: rgb(255, 230, 0);
+color: rgb(255, 230, 0) ;
+}
+.btn1 .btn:hover{
+background-color: rgb(255, 230, 0);
+color: rgb(2, 2, 188);
+transition: 0.5s ease;
+}
+.btn1 + .btn {
+    margin-left: 10px;
+}
+h6{
+color: white;
+text-shadow: 5px 0px 10px darkblue;
+}
+.nav-link{
+color: white;
+}
+.nav-link:hover{
+background-color: darkblue;
+color: rgb(255, 230, 0) ;
+border-radius: 5px 15px;
+transition: 0.5s ease;
+}
+@media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: row; 
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 20px; 
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+}
+.web-title{
+  text-align: center;
+  
+ 
+  color: #002469;
+    
+}
+.image{
+    text-align: center;
+}
+
+.contacts{
+    padding-top: 10rem;
+    padding-bottom: 20px;
+}
+.card{
+    text-align: center;
+}
