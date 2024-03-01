@@ -21,8 +21,11 @@ padding-right: 10px;
 
 }
 .btn{
-color: white;
+
 border-color: white;
+}
+.btn .b2 {
+    color: white;
 }
 .btn a{
     text-decoration: none;
@@ -45,7 +48,6 @@ transition: 0.5s ease;
 }
 .btn1 .btn{
 border-color: rgb(255, 230, 0);
-color: rgb(255, 230, 0) ;
 }
 .btn1 .btn:hover{
 background-color: rgb(255, 230, 0);
